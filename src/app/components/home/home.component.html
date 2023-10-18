@@ -1,0 +1,154 @@
+<section id="carousel" >
+  <div id="carouselExampleCaptions" class="carousel slide data-bs-slide data-bs-target">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <div class="blue-overlay">
+          <img src="https://images.pexels.com/photos/1732414/pexels-photo-1732414.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-caption d-md-block">
+          <h5 class="reveal">commercial</h5>
+          <h1 class="reveal">text</h1>
+          <h5 class="reveal">address</h5>
+        </div>
+      
+      </div>
+      <div class="carousel-item">
+        <div class="blue-overlay">
+          <img src="https://images.pexels.com/photos/618079/pexels-photo-618079.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-caption d-md-block">
+          <h5 class="reveal">residental</h5>
+          <h1 class="reveal">i love cheesburger and fry</h1>
+          <h5 class="reveal">address</h5>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="blue-overlay">
+          <img src="https://images.pexels.com/photos/380768/pexels-photo-380768.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-caption d-md-block">
+          <h5 class="reveal">commercial</h5>
+          <h1 class="reveal">text</h1>
+          <h5 class="reveal">address</h5>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+</section>
+
+<section id="mission"  data-aos="fade-right" data-aos-duration="3000">
+
+  <div class="main-content">
+    <div class="about-content">
+      <div class="about-vertical-text">
+        <div class="vr"></div>
+        <div class="text">about us</div>
+        <div class="vr"></div>
+      </div>
+
+      <div class="about-us-text">
+        <h2>We offer fully integrated design-build services based on a deep respect for our planet's well-being.</h2>
+        <p>We relish the challenges inherent across a wide range of work, engaging our expertise and agility to deliver lasting, meaningful designs that bring value to our clients and contribute towards a healthier planet. Our aim is to create long-lasting standards that integrate environmental impact with social and economic platforms, as well as global reach and local context.</p>
+      </div>
+
+      <div class="about-news">
+        <div class="card">
+          <div class="card-body">
+            <p class="card-title">24.09.2023</p>
+            <h5 class="card-text">Meet us at Future Hospitality Summit taking place September 25-27 In Abu Dhabi, Yas Island!</h5>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-body">
+            <p class="card-title">28.07.2023</p>
+            <h5 class="card-text">Specterum and Deyaar began work on an extraordinary Multifunctional complex in Abu Dhabi</h5>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+  
+</section>
+
+<section id="projects"  data-aos="fade-up" data-aos-duration="3000">
+  
+  <div class="projects-main">
+    <div class="projects-text">
+      <h3 style="color: #293042;">Latest Projects</h3>
+      <div>Explore the latest residential, commercial and interior design projects. Get inspired!</div>
+    </div>
+    <div class="projects-card">
+      <p-carousel [value]="cars" [numVisible]="2.2" [numScroll]="1"> 
+        <ng-template let-car pTemplate="item"> 
+          <div class="product-item"> 
+            <div class="product-item-content"> 
+              <div class="p-mt-5" style="margin-top: 50%;"> 
+                
+                <h4
+                  class="p-mb-1"> 
+                  {{ car.name }} 
+                </h4> 
+                <h4
+                  class="p-mb-1"> 
+                  {{ car.description }} 
+                </h4> 
+
+
+              </div> 
+            </div> 
+          </div> 
+        </ng-template> 
+      </p-carousel>
+      
+
+    </div>
+  </div>
+</section>
+
+<section id="news" data-aos="fade-up" data-aos-duration="3000">
+  <div class="projects-main">
+    <div class="text-card">
+      <p-carousel class="carousel" [value]="cars" [numVisible]="2.2" [numScroll]="1"> 
+        <ng-template let-car pTemplate="item"> 
+          <div class="product-item"> 
+            <div class="product-item-content"> 
+              <div class="p-mt-5" style="margin-top: 50%;"> 
+                
+                <h4
+                  class="p-mb-1"> 
+                  {{ car.name }} 
+                </h4> 
+                <h4
+                  class="p-mb-1"> 
+                  {{ car.description }} 
+                </h4> 
+
+
+              </div> 
+            </div> 
+          </div> 
+        </ng-template> 
+      </p-carousel>
+      
+
+    </div>
+    <div class="news-text projects-text ">
+      <h3 style="color: #293042;">Explore More</h3>
+      <div>Explore the latest residential, commercial and interior design projects. Get inspired!</div>
+    </div>
+  </div>
+</section>
+
+<!-- <section id="range">explore</section> -->
+
+

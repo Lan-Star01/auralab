@@ -1,0 +1,43 @@
+
+
+.custom-text-color {
+        color: black !important;
+}
+      
+.ml-auto, .mx-auto {
+        margin-left: auto!important;
+}
+    
+.fixed-top {
+        top: 5%;
+        position: absolute;
+}
+    
+.navbar-brand {
+        color: white;
+        text-transform: uppercase;
+        font-weight: bold;
+        letter-spacing: 2px;
+}
+
+.navbar-nav .nav-link.active{
+        color: #fff;
+    
+}
+.nav-link {
+        color: rgba(255, 255, 255, 0.801)
+
+}
+.lang {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+.bi-globe-americas, .lang span {
+    color: white;
+}
+
+
+

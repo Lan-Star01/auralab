@@ -1,0 +1,37 @@
+.ml-auto, .mx-auto {
+        margin-left: auto!important;
+}
+    
+.fixed-top {
+        top: 5%;
+        position: absolute;
+}
+    
+.navbar-brand {
+        color: black !important;
+        text-transform: uppercase;
+        font-weight: bold;
+        letter-spacing: 2px;
+}
+
+.navbar-nav .nav-link.active{
+        color: black !important;
+    
+}
+.nav-link {
+        color: black !important;
+
+}
+.lang {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+.bi-globe-americas, .lang span {
+    color: black;
+}
+
+
+
