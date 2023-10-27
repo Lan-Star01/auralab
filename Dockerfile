@@ -4,8 +4,7 @@ FROM node:18
 WORKDIR /app
 
 COPY package*.json ./
-RUN npm update
-
+RUN npm install -g @angular/cli
 RUN npm install
 
 COPY . .
